@@ -1,0 +1,60 @@
+/*
+Project Name: Galatasaray
+Project Author: Design and Codes Burak Çavuş
+Version: V1
+Description: This is website , Galatasaray
+*/
+
+:root {
+    --template-bg: #000;
+    --template-color: #fff;
+    --max-width: 100%;
+    --primary: #0c7489;
+
+}
+
+{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 2rem;
+    opacity: .9;
+}
+/* Header start */
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/1024xauto.webp);
+    background-size: cover;
+    z-index: -1;
+    height: 87.8vh;
+}
+#muslera {
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.line-clamp6{
+    cursor: pointer;
+} 
+#boey {
+    cursor: pointer;
+}
